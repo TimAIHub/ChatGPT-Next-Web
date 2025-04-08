@@ -37,6 +37,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <meta name="google-adsense-account" content="ca-pub-6251937866531497">
         <meta name="config" content={JSON.stringify(getClientConfig())} />
         <meta
           name="viewport"

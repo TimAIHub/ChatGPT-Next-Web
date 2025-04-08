@@ -42,6 +42,8 @@ export default function RootLayout({
           name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
         />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6251937866531497"
+     crossorigin="anonymous"></script>
         <link
           rel="manifest"
           href="/site.webmanifest"

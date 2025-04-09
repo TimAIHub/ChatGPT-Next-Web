@@ -1,4 +1,5 @@
 User-agent: *
 Disallow: /ads
-User-agent: vitals.vercel-insights.com
 Allow: /ads.txt
+User-agent: vitals.vercel-insights.com
+Allow: /

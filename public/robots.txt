@@ -3,3 +3,5 @@ Disallow: /ads
 Allow: /ads.txt
 User-agent: vitals.vercel-insights.com
 Allow: /
+User-agent: Googlebot
+Allow: /ads.txt

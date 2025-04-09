@@ -8,7 +8,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import { GoogleTagManager, GoogleAnalytics } from "@next/third-parties/google";
 import { getServerSideConfig } from "./config/server";
 import AdSense from "./components/AdSense"
-import Script from "next/script";
+// import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "NextChat",
@@ -51,6 +51,8 @@ export default function RootLayout({
           crossOrigin="use-credentials"
         ></link>
         <script src="/serviceWorkerRegister.js" defer></script>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6251937866531497"
+     crossorigin="anonymous"></script>
         <AdSense pId="6251937866531497" />
       </head>
       <body>

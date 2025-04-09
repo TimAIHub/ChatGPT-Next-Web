@@ -51,8 +51,12 @@ export default function RootLayout({
           crossOrigin="use-credentials"
         ></link>
         <script src="/serviceWorkerRegister.js" defer></script>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6251937866531497"
-     crossorigin="anonymous"></script>
+        <script 
+          async 
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6251937866531497"
+          crossorigin="anonymous"
+          >
+        </script>
         <AdSense pId="6251937866531497" />
       </head>
       <body>

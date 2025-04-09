@@ -52,7 +52,7 @@ export default function RootLayout({
         <script src="/serviceWorkerRegister.js" defer></script>
         <Script
           async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6251937866531497"
+          src={'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6251937866531497'}
           crossOrigin="anonymous"
           strategy="beforeInteractive"
         />
